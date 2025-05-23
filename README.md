@@ -1,4 +1,4 @@
-# Master Thesis: Deep Learning on Magnetic Resonance k-space Data to Improve Image Quality
+# Master's Thesis: Deep Learning on Magnetic Resonance k-space Data to Improve Image Quality
 
 This repository contains code and utilities for image reconstruction using deep learning models. It includes the necessary 
 preprocessing steps, as well as training and evaluating models for both 3D and 4D reconstruction.
@@ -6,9 +6,10 @@ preprocessing steps, as well as training and evaluating models for both 3D and 4
 ## Table of Contents
 - [Overview](#overview)
 - [Preprocessing](#preprocessing)
-- [3D-models](#3D-models)
-- [4D-models](#4D-models)
+- [3D-models](#3d-models)
+- [4D-models](#4d-models)
 - [Dependencies](#dependencies)
+- [Contact](#contact)
 
 ## Overview
 The aim of this thesis was to use deep learning to improve the image quality of Looping Star images with the temporal dimension included, using k-space data as input data. The proposed pipeline is split in two; a 3D-UNet to reconstruct
@@ -53,5 +54,14 @@ To run the code in this repository, you will need the following dependencies:
 - torchmetrics (version 1.6.1)
 - matplotlib (version 3.9.2)
 - NumPy (version 1.26.4)
+- h5py (version 3.12.1)
+- torchmetrics (version 1.6.1)
+- scipy (version 1.13.1)
+- ignite (version 0.5.1)
 
-The rest of the dependencies can be seen in the environment.yml file.
+## Contact
+For access to trained model, contact Renate Grüner and Frank Riemer to create a data transfer agreement:
+
+Renate Grüner - Renate.Gruner@uib.no
+
+Frank Riemer - frank.riemer@helse-bergen.no
