@@ -60,7 +60,7 @@ To run the code in this repository, you will need the following dependencies:
 - ignite (version 0.5.1)
 
 ## Contact
-For access to trained model, contact Renate Grüner and Frank Riemer to create a data transfer agreement:
+For access to the trained models, contact Renate Grüner and Frank Riemer to create a data transfer agreement:
 
 Renate Grüner - Renate.Gruner@uib.no
 
