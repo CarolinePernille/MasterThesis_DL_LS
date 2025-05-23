@@ -98,6 +98,7 @@ def train(optimizer, model, criterion, train_loader, val_loader):
         # Deleting variables to free up memory
         del data
         outputs = outputs.squeeze(1)
+        labels = labels.squeeze(1)
         optimizer.zero_grad()
         loss = criterion(outputs, labels)
         loss.backward()
