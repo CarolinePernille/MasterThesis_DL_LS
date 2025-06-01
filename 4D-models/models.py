@@ -7,7 +7,7 @@ class UNet4D(nn.Module):
     def __init__(self):
         super(UNet4D, self).__init__()
         """ 
-        A 4D-UNet model.
+        A 4D-UNet model, with added group normalization and Leaky ReLU as activation function.
         """
         # Encoder block (each consisting of two conv layers with Group Norm and LeakyReLU as activation function)
         self.conv1 = self.double_conv(1,16)
@@ -76,7 +76,7 @@ class complex_UNet4D(nn.Module):
         super(complex_UNet4D, self).__init__()
 
         """ 
-        A more complex version of 4D-UNet. Not in use for this current project. 
+        A more complex version of 4D-UNet. Not in use for this current project. Does not include group normalization, and uses ReLU as activation function.
         """
 
         
