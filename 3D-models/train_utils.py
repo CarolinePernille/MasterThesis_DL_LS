@@ -114,10 +114,12 @@ def train(optimizer, model, criterion, train_loader, val_loader):
         for data, labels in val_loader:
             data = data.to(device=device, dtype = torch.float32) 
             labels = labels.to(device=device)
-
             outputs = model(data)
+            
+            # Deleting variables to free up memory
             del data
             outputs = outputs.squeeze(1)
+            labels = labels.squeeze(1)
             loss = criterion(outputs, labels)
             loss_val += loss.item()
         
