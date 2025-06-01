@@ -9,6 +9,7 @@ preprocessing steps, as well as training and evaluating models for both 3D and 4
 - [3D-models](#3d-models)
 - [4D-models](#4d-models)
 - [Dependencies](#dependencies)
+- [Usage](#usage)
 - [Contact](#contact)
 
 ## Overview
@@ -59,7 +60,12 @@ To run the code in this repository, you will need the following dependencies:
 - scipy (version 1.13.1)
 - ignite (version 0.5.1)
 
+## Usage
+The scrips in this repository compose a deep learning pipeline used for this master's thesis. By installing the required dependancies above, all functions and classes should be usable. Paths and directory names will need to be updated accordingly.
+
 ## Contact
+If you have any questions or comments, contact me at carolinepernille@hotmail.com
+
 For access to the trained models, contact Renate Grüner and Frank Riemer to create a data transfer agreement:
 
 Renate Grüner - Renate.Gruner@uib.no
