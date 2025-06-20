@@ -10,7 +10,7 @@ preprocessing steps, as well as training and evaluating models for both 3D and 4
 - [4D-models](#4d-models)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
-- [Contact](#contact)
+
 
 ## Overview
 The aim of this thesis was to use deep learning to improve the image quality of Looping Star images with the temporal dimension included, using k-space data as input data. The proposed pipeline is split in two; a 3D-UNet to reconstruct
@@ -63,11 +63,4 @@ To run the code in this repository, you will need the following dependencies:
 ## Usage
 The scrips in this repository compose a deep learning pipeline used for this master's thesis. By installing the required dependancies above, all functions and classes should be usable. Paths and directory names will need to be updated accordingly.
 
-## Contact
-If you have any questions or comments, contact me at carolinepernille@hotmail.com
 
-For access to the trained models, contact Renate Grüner and Frank Riemer to create a data transfer agreement:
-
-Renate Grüner - Renate.Gruner@uib.no
-
-Frank Riemer - frank.riemer@helse-bergen.no
